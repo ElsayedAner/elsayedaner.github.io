@@ -1,31 +1,33 @@
 source "https://rubygems.org"
 
-# Hello! This is where you manage which Jekyll version is used to run.
-# When you want to use a different version, change it below, save the
-# file and run `bundle install`. Run Jekyll with `bundle exec`, like so:
+# This Gemfile is optimized for running Jekyll with GitHub Pages.
+# Run Jekyll with `bundle exec`, like so:
 #
 #     bundle exec jekyll serve
 #
-# This will help ensure the proper Jekyll version is running.
-# Happy Jekylling!
+# This ensures that the correct versions of gems are used.
 
+# The github-pages gem includes Jekyll along with a set of dependencies
+# that are optimized and tested to work well on GitHub Pages.
 gem "github-pages", group: :jekyll_plugins
 
-gem 'faraday-retry'
+# Faraday retry for robust HTTP requests, with a specified version to ensure compatibility.
+gem 'faraday-retry', '~> 2.2'
 
-
-# If you want to use Jekyll native, uncomment the line below.
-# To upgrade, run `bundle update`.
-
-# gem "jekyll"
-
+# Windows-specific gem to improve performance of file watchers.
 gem "wdm", "~> 0.1.0" if Gem.win_platform?
 
-# If you have any plugins, put them here!
+# Plugins for Jekyll, managed through the github-pages gem.
+# If you need additional plugins, you can include them here.
 group :jekyll_plugins do
-  # gem "jekyll-archives"
-  gem "jekyll-feed"
-  gem 'jekyll-sitemap'
-  gem 'hawkins'
-  gem "webrick", "~> 1.8"
+  gem "jekyll-feed"    # Automatically generates an RSS feed.
+  gem 'jekyll-sitemap' # Generates a sitemap for your site.
+  gem 'hawkins', '~> 2.0.3' # For live-reloading in local development.
+  gem "webrick", "~> 1.7"   # Required for Jekyll 4 and above to serve the site.
 end
+
+# Ensure all gems are compatible with each other by using Bundler's strict resolution features.
+ruby '>= 2.4.0', '< 3.1.0' # Specify your Ruby version for compatibility with GitHub Pages.
+
+# Uncomment the following line if you prefer to manage Jekyll's version directly.
+# gem "jekyll", "~> 4.2.0"
