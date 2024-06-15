@@ -1,0 +1,46 @@
+#banner-card .areas-of-interest {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 20px;
+}
+
+#banner-card .areas-of-interest .interest {
+    text-align: center;
+    width: 30%;
+}
+
+#banner-card .areas-of-interest .interest img {
+    width: 30%;
+    max-width: 150px;
+}
+
+#banner-card .areas-of-interest .interest h3 {
+    font-size: 14px;
+    color: #000000; 
+    font-weight: bold; 
+    text-align: center;
+}
+
+#banner-card .areas-of-interest .interest p {
+    font-size: 14px;
+    color: #464545;
+    text-align: center;
+    line-height: 1.2; /* Adjust this value to reduce space between lines */
+}
+
+@media (max-width: 768px) {
+    #banner-card .areas-of-interest {
+        flex-direction: column; /* Stacks items vertically */
+        align-items: center;
+    }
+
+    #banner-card .areas-of-interest .interest {
+        width: 100%; /* Makes each interest take full width */
+        margin-bottom: 20px;
+    }
+    #banner-card .areas-of-interest .interest img {
+        width: 20%;
+        max-width: 50px;
+    }
+}

@@ -1,0 +1,39 @@
+.video-container {
+    display: flex;
+    flex-wrap: wrap; /* Allows the container to wrap content */
+    justify-content: space-around; /* Distributes spacing evenly around the content */
+    margin: 0 auto; /* Centers the container horizontally */
+    max-width: 1200px; /* Maximum width of the container */
+    padding: 20px; /* Adds padding around the container */
+}
+
+.video-group {
+    flex: 0 0 50%; /* Each video takes up 50% of the container's width */
+    max-width: 50%; /* Maximum width is also set to 50% to ensure layout consistency */
+    padding: 10px; /* Padding around each video group */
+    box-sizing: border-box; /* Includes padding in width calculation */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.video-wrapper {
+    width: 100%; /* Full width of its parent container */
+    aspect-ratio: 16 / 9; /* Maintains a 16:9 aspect ratio */
+    overflow: hidden; /* Prevents overflow */
+    border-radius: 8px; /* Rounded corners for aesthetics */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+.video-wrapper iframe {
+    width: 100%; /* Ensures the iframe fills the container */
+    height: 100%; /* Ensures the iframe fills the container */
+    border: none; /* Removes the border */
+}
+
+.video-description {
+    margin-top: 10px; /* Space between the video and its description */
+    text-align: center; /* Centers the text */
+    font-size: 16px; /* Sets the font size */
+    color: #333; /* Dark color for text */
+}

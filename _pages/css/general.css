@@ -1,0 +1,114 @@
+.introduction h1 {
+    color: #201f1f;
+    margin-bottom: 0;
+    text-align: left;
+}
+.introduction h2 {
+    color: #c70038;
+    font-weight: bold;
+    font-family: 'Georgia', serif;
+    font-size: 16px;
+    margin-top: 0;
+    text-align: left;
+}
+.introduction .main {
+    font-weight: bold;
+    font-family: 'Georgia', serif;
+    text-align: left; /* Default alignment on larger screens */
+    margin: 5px 0;
+}
+.introduction .main p {
+    text-align: justify;
+    margin: 10px 0;
+    font-size: 16px;
+    font-weight: bold;
+    font-family: 'Arial', sans-serif;
+}
+.introduction .main a {
+    color: #B8860B;
+    text-decoration: none;
+}
+.introduction .centered-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 5vh;
+    flex-wrap: wrap;
+}
+.introduction .badge {
+    margin: 5px;
+}
+
+/* CSS adjustments for mobile screens */
+@media (max-width: 768px) {
+    .introduction .header {
+        text-align: center !important; /* Ensure heading text is centered */
+        width: 100%; /* Ensures headings span the full width */
+        margin: 20px 0; /* Consistent vertical spacing */
+    }
+    .introduction h1 {
+        font-size: 20px !important;
+    }
+    .introduction .main p, div[style*="display: flex;"], div[style*="width: 35%;"] {
+        width: 100%; /* Ensures full width usage and proper alignment */
+        text-align: center !important; /* Centers the text in paragraphs */
+        font-weight: normal !important;
+    }
+    .introduction .main img {
+        width: 80% !important; /* Adjusts image width for better mobile display, centered by default */
+        display: block !important; /* Ensures images are block level to respect width and centering */
+        margin: auto !important; /* Centers images horizontally */
+        align-content: center !important;
+    }
+    .introduction .main div[style*="display: flex;"] {
+        flex-direction: column !important; /* Stack child elements vertically */
+        align-items: center !important; /* Align children (e.g., badges) centrally */
+        justify-content: center !important; /* Ensures content is centered */
+    }
+    .introduction .main div[style*="width: 35%;"] {
+        width: 100% !important; /* Ensures div takes full width */
+    }
+    .introduction .main {
+        flex-direction: column !important; /* Stack the paragraphs and images vertically */
+        align-items: center !important; /* Center align items */
+    }
+}
+
+/* ============================= General ============================= */
+#banner-card {
+    /*margin: 100px 0;*/
+    padding: 10px 0;
+    /*background: url('/images/BG_08.png') no-repeat center center;
+    background-size: cover;
+    border-radius: 30px;
+    overflow: hidden;*/
+}
+#banner-card hr {
+    height: 2px;
+    border: none;
+    background-image: linear-gradient(to right, #27374600, #273746, #27374600);
+}
+#banner-card h1 {
+    color: #201f1f;
+    margin-bottom: 0;
+}
+#banner-card h2 {
+    font-weight: bold;
+    font-family: 'Georgia', serif !important;
+    font-size: 24px;
+    color: #C70039;
+    width: 100%;
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    /*text-shadow: 0 0 10px #fd2864be;*/
+}
+
+/* CSS adjustments for mobile screens */
+@media (max-width: 768px) {
+    #banner-card h2 {
+        font-size: 18px; /* Smaller font size for mobile screens */
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+}

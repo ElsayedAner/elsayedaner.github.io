@@ -1,0 +1,193 @@
+// General Masthead Styles
+.masthead {
+  position: fixed;
+  background: #ffffff;
+  border-bottom: 1px solid #ffffff;
+  height: $masthead-height;
+  top: 0;
+  width: 100%;
+
+  -webkit-animation: intro 0.3s both;
+  animation: intro 0.3s both;
+  -webkit-animation-delay: 0.15s;
+  animation-delay: 0.15s;
+  z-index: 20;
+
+  &__inner-wrap {
+    @include container;
+    @include clearfix;
+    padding: 1em 1em 1em;
+    font-family: $sans-serif-narrow;
+    @include breakpoint($x-large) {
+      max-width: $x-large;
+    }
+
+    nav {
+      z-index: 10;
+      display: flex; /* Ensures flexbox properties are applied */
+      align-items: center; /* Vertically center the content */
+      width: 100%; /* Use the full width of its parent */
+    }
+
+    a {
+      vertical-align: middle;
+      min-height: 38px;
+      text-decoration: none;
+      border-radius: 15px !important;
+      padding: 5px !important;
+      color: #333; // Default text color for links
+      transition: color 0.3s ease, background-color 0.3s ease, border-bottom 0.3s ease; // Smooth transition for hover effects
+
+      &:hover, &:focus {
+        color: #1074cc;
+        background-color: #4b75ff91;
+        border-radius: 15px !important;
+      }
+    }
+  }
+}
+
+
+// Masthead Menu Styles
+.masthead__menu {
+  ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+  }
+
+  .masthead__menu-item {
+    display: flex;
+    list-style-type: none;
+    white-space: nowrap;
+    position: relative;
+    overflow: hidden; // Allows border-radius on child elements to be visible
+
+    &--lg {
+      padding-left: 1em;
+      padding-right: 4.3em;
+      font-weight: 700;
+      vertical-align: middle;
+    }
+
+    .submenu {
+      display: none; // Submenu is hidden by default
+      position: absolute;
+      left: 0; // Align submenus to the left edge of the parent li
+      top: 100%; // Positions submenu right below the parent item
+      width: 100%; // Ensures submenus are as wide as their parent li
+      background: white; // Ensuring visibility against potential transparent issues
+      z-index: 100;
+      padding-left: 0; // Ensures no indentation for submenu items
+
+      li {
+        display: grid;
+        padding: 0px 2px 0px 2px;
+        background: transparent;
+        font-size: 12pt;
+        font-weight: bold; // Uniform font weight to avoid bold styling
+        
+        &:hover {
+          background-color: #ffe920 !important; // Enhanced background color on hover
+        }
+      }
+    }
+
+    &:hover .submenu {
+      display: grid;
+      background-color: #ffe920 !important; // Submenu background on hover
+      border-radius: 25px;
+    }
+  }
+
+  // Active menu item styling
+  .masthead__menu-item--active a {
+    color: #1d66a7 !important; // Blue text
+    font-weight: bold !important; // Bold font
+    border-bottom: 2px solid #928a18 !important; // Blue bottom border
+    background-color: #eee454ea !important; // Light blue background for more visibility
+    padding: 5px 5px; // Increase padding for better visual impact
+    border-radius: 15px !important;
+  }
+
+  // Search button /////////////////////////////// 
+  display: flex;
+  justify-content: space-between; // Keeps the main menu and search bar on opposite ends
+  width: 100%; // Ensures the nav fills the container
+
+  nav {
+    display: flex;
+    justify-content: space-between; // Helps push the search container to the edge
+    width: 100%;
+  }
+      // Search Container and Button
+  .search-container {
+    display: flex;
+    align-items: center;
+    background-color: #ffffff; // Clear white background
+    justify-content: space-between;
+    border-radius: 30px;
+    padding: 0;
+    margin-right: 10px; // Ensures some spacing to the right edge
+
+    input[type="text"] {
+      border: none;
+      box-shadow: none;
+      outline: none;
+      padding: 5px 5px;
+      width: 180px; // Default width
+      color: #333; // Dark grey color for text
+      font-size: 16px; // Readable font size
+      background: transparent;
+      &::placeholder {
+        color: #555; // Placeholder text color
+      }
+      &:focus {
+        width: 200px; // Expands when focused
+      }
+    }
+
+    .search-button {
+      background: none;
+      border: none;
+      color: #333;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding-left: 10px;
+
+      i.fa {
+        font-size: 18px; // Large enough for visibility
+        opacity: 1; // Full opacity
+        position: relative;
+        left: -5px !important;
+      }
+    }
+  }
+}
+
+// Ensuring Font Awesome icon is correctly styled
+.fa-search, .search-button {
+  color: #a7a7a7ef !important;
+  opacity: 1 !important;
+  visibility: visible !important;
+  text-shadow: none !important;
+  transform: none !important;
+  clip: auto !important;
+  clip-path: none !important;
+  filter: none !important;
+  font-size: 18px !important;  // Make sure it's large enough to see
+  //font-weight: normal !important;
+}
+
+.masthead__menu-item a img {
+  vertical-align: middle; /* Adjust this value as needed, such as 'top', 'bottom', 'text-top', etc. */
+  margin-right: 5px;
+  height: 20px; /* Ensure consistent icon height */
+}
+
+.masthead__menu-item a {
+  padding: 5px 10px; /* Adjust padding as needed */
+  line-height: 20px; /* Adjust line height to align with the icon's height */
+}

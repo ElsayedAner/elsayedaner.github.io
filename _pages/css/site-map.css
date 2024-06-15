@@ -1,0 +1,40 @@
+#siteMap a {
+    text-decoration: none; /* Removes underline from links */
+    color: #383737; /* Custom link color */
+}
+
+#siteMap ul {
+    list-style-type: none; /* Removes list bullets */
+    padding-left: 0; /* No padding left for the top-level ul */
+    margin: 0; /* Removes default margins */
+    font-family: 'Consolas', 'Courier New', monospace; /* Ensures monospaced font with fallbacks */
+}
+
+#siteMap li {
+    padding: 2px 2px; /* Vertical padding for each item */
+    background-color: #facc4d; /* Solid color background */
+    border-radius: 20px; /* Rounded corners for all items */
+    font-family: 'Consolas', 'Courier New', monospace; /* Consistent font within all list items */
+}
+
+#siteMap ul li {
+    text-decoration: none;  /* Removes underline from links */
+    color: #383737; /* Sets the text color to black */
+    font-family: 'Consolas', 'Courier New', monospace; /* Consistent font within nested list items */
+}
+
+#siteMap li:hover {
+    padding: 2px 2px; /* Vertical padding for each item */
+    border-radius: 20px; /* Rounded corners for all items */
+    background-color: rgba(83, 77, 77, 0.74); /* Darker gray on hover */
+    font-family: 'Consolas', 'Courier New', monospace; /* Ensures font consistency on hover */
+}
+
+#siteMap li:hover a {
+    color: #ffffff; /* Changes text color to white on hover */
+}
+
+#siteMap ul ul { /* Only targets ul elements nested within other ul elements */
+    padding-left: 20px; /* Adds left padding to indent secondary pages */
+    font-family: 'Consolas', 'Courier New', monospace; /* Ensures font consistency in nested lists */
+}

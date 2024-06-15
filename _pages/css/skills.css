@@ -1,0 +1,55 @@
+#banner-card .skills-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+#banner-card .skill-column {
+    width: 22%;
+    margin-bottom: 20px;
+}
+
+#banner-card .skill-column h4 {
+    font-family: 'Arial', sans-serif;
+    margin: 10px 0;
+    font-size: 14px;
+    color: #222222;
+    text-align: center; /* Center text within each skill column */
+}
+
+#banner-card .skill-bar-background {
+    background-color: #c2c2c2;
+    border-radius: 3px;
+    box-shadow: 0 1px 3px #00000033;
+    margin: 5px 0;
+    height: 10px;
+    width: 100%;
+    position: relative;
+}
+
+#banner-card .skill-bar-fill {
+    background: linear-gradient(to right, #15056b, #057eb691);
+    border-radius: 3px;
+    height: 10px;
+    width: 100%; /* Ensure the fill covers the background width */
+}
+
+@media (max-width: 768px) {
+    #banner-card .skills-container {
+        flex-direction: column;
+        align-items: center; /* Center align items */
+    }
+
+    #banner-card .skill-column {
+        width: 100%;
+        text-align: center; /* Center align text and content within each skill column */
+        display: flex;
+        flex-direction: column;
+        align-items: center; /* Center align bars within each skill column */
+    }
+
+    #banner-card .skill-bar-background {
+        width: 80%; /* Reduce the width of the bars */
+    }
+}

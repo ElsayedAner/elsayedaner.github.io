@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Our Partners</title>
+<style>
+  /* Rounded background container */
+  .rounded-background {
+    background: url('/images/banner1.png') no-repeat center center;
+    background-size: cover;
+    border-radius: 50% 20% / 30% 40%;
+    padding: 60px 20px;
+    margin: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+
+  /* Circle Images Layout */
+  .circle-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap; /* Allow wrapping */
+  }
+
+  .circle-wrapper {
+    text-align: center;
+    margin: 20px;
+    transition: transform 0.3s, box-shadow 0.3s;
+  }
+
+  .circle {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin: 0 auto;
+    border: 4px solid #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s, box-shadow 0.3s;
+  }
+
+  .circle img {
+    width: 100%;
+    height: auto;
+  }
+
+  .circle-wrapper:hover .circle {
+    transform: scale(1.1);
+    box-shadow: 0 0 15px #61a5ff;
+  }
+
+  .circle-captions {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 15px;
+  }
+
+  .circle-caption {
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 16px;
+    text-shadow: 0 0 8px #61a5ff;
+  }
+
+  .circle-caption-info {
+    margin-top: 5px;
+    color: #ffffff;
+    font-weight: normal;
+    font-size: 14px;
+    text-shadow: 0 0 8px #61a5ff;
+    text-align: center;
+    width: 200px;
+  }
+
+  /* Make anchor tags for profile links */
+  .circle-wrapper a {
+    text-decoration: none;
+    color: inherit;
+  }
+
+  /* Title styles */
+  .rounded-background h1 {
+    text-align: center;
+    padding: 20px 0;
+    color: #ffffff;
+    text-shadow: 0 0 8px #61a5ff;
+  }
+
+  /* Stack circles on small screens */
+  @media only screen and (max-width: 768px) {
+    .circle-container {
+      flex-direction: column; /* Stack circles vertically */
+    }
+
+    .circle-wrapper {
+      margin-bottom: 20px; /* Space between circles */
+    }
+  }
+
+  /* Additional images layout */
+  .additional-images {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+  }
+
+  .additional-images img {
+    margin: 0 20px;
+    width: 150px;
+    height: auto;
+  }
+
+  /* Adjust additional images on small screens */
+  @media only screen and (max-width: 768px) {
+    .additional-images img {
+      width: 80px; /* Adjust the width as needed */
+      margin: 0 10px;
+    }
+  }
+</style>
+</head>
+<body>
+
+<div class="rounded-background">
+  <h1>Our Partners</h1>
+  <div class="circle-container">
+    <div class="circle-wrapper">
+      <a href="https://www.researchgate.net/profile/Wafaa-Mostafa" target="_blank">
+        <div class="circle">
+          <img src="/images/icons/profile_02.png" alt="Dr. Wafaa Mostafa">
+        </div>
+        <div class="circle-captions">
+          <div class="circle-caption">Dr. Wafaa Mostafa</div>
+          <div class="circle-caption-info">Assistant Professor @ ERU</div>
+        </div>
+      </a>
+    </div>
+    <div class="circle-wrapper">
+      <a href="https://www.linkedin.com/in/elsayed-aner/" target="_blank">
+        <div class="circle">
+          <img src="/images/my.png" alt="Eng. Elsayed Aner">
+        </div>
+        <div class="circle-captions">
+          <div class="circle-caption">Eng. Elsayed Aner</div>
+          <div class="circle-caption-info">Assistant Lecturer @ ERU | Embedded Software Engineer</div>
+        </div>
+      </a>
+    </div>
+    <div class="circle-wrapper">
+      <a href="https://www.linkedin.com/in/mohamed-khaled-farouk" target="_blank">
+        <div class="circle">
+          <img src="/images/mohamed_khaled_farouk.jpg" alt="Eng. Mohamed Farouk">
+        </div>
+        <div class="circle-captions">
+          <div class="circle-caption">Eng. Mohamed Farouk</div>
+          <div class="circle-caption-info">Teaching Assistant @ ERU | Software Testing Engineer</div>
+        </div>
+      </a>
+    </div>
+    <div class="circle-wrapper">
+      <a href="https://www.researchgate.net/profile/Ahmed-Elshabrawy-7" target="_blank">
+        <div class="circle">
+          <img src="/images/icons/profile_01.png" alt="Eng. Ahmed Shabrawy">
+        </div>
+        <div class="circle-captions">
+          <div class="circle-caption">Eng. Ahmed Shabrawy</div>
+          <div class="circle-caption-info">Assistant Lecturer @ ERU</div>
+        </div>
+      </a>
+    </div>
+  </div>
+</div>
+<br>
+
+<div class="additional-images">
+  <img src="/images/icons/badge_01.png" alt="Page 1">
+  <img src="/images/icons/badge_03.png" alt="Page 2">
+  <img src="/images/icons/badge_02.png" alt="Page 3">
+</div>
+
+</body>
+</html>

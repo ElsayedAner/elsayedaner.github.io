@@ -1,0 +1,21 @@
+---
+layout: archive
+title: "Experience"
+permalink: /experience/
+author_profile: true
+---
+
+{% include base_path %}
+
+<div style="display: flex; justify-content: space-between; align-items: center;">
+  <div>
+    <h3 style="margin:0px">
+      You can also find my <a href="https://www.linkedin.com/in/elsayed-aner/" target="_blank" style="text-decoration: none;">Linkedin profile</a>.
+    </h3>
+  </div>
+  <a href="https://hits.sh/elsayedaner.github.io/experience/"><img alt="Hits" src="https://hits.sh/elsayedaner.github.io/experience.svg?style=for-the-badge"/></a>
+</div>
+
+{% for post in site.experience reversed %}
+  {% include archive-single.html %}
+{% endfor %}

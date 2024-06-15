@@ -1,0 +1,13 @@
+{% if include.depth < 3 %}
+<ul class="tree">
+{% for item in include.items %}
+  <li>
+    <a href="{{ site.baseurl }}{{ item.url }}">{{ item.title }}</a>
+    {% if item.subpages %}
+      {% assign new_depth = include.depth | plus: 1 %}
+      {% include recursive_navigation_limited.html items=item.subpages depth=new_depth %}
+    {% endif %}
+  </li>
+{% endfor %}
+</ul>
+{% endif %}

@@ -1,0 +1,23 @@
+---
+layout: archive
+title: "Publications"
+permalink: /publications/
+author_profile: true
+---
+
+{% if site.author.googlescholar %}
+<div style="display: flex; justify-content: space-between; align-items: center;">
+    <div>
+      <h3 style="margin:0px">
+        You can also find my articles on my <a href="{{ site.author.googlescholar }}" target="_blank" style="text-decoration: none;">Google Scholar</a>.
+      </h3>
+    </div>
+    <a href="https://hits.sh/elsayedaner.github.io/publications/"><img alt="Hits" src="https://hits.sh/elsayedaner.github.io/publications.svg?style=for-the-badge&logo=googlescholar"/></a>
+  </div>
+{% endif %}
+
+{% include base_path %}
+
+{% for post in site.publications reversed %}
+  {% include archive-single.html %}
+{% endfor %}
