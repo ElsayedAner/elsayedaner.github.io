@@ -1,4 +1,4 @@
-.video-container {
+#banner-card .video-container {
     display: flex;
     flex-wrap: wrap; /* Allows the container to wrap content */
     justify-content: space-around; /* Distributes spacing evenly around the content */
@@ -7,8 +7,8 @@
     padding: 20px; /* Adds padding around the container */
 }
 
-.video-group {
-    flex: 0 0 50%; /* Each video takes up 50% of the container's width */
+#banner-card .video-group {
+    flex: 0 0 50%; /* Each video takes up 50% of the container's width on larger screens */
     max-width: 50%; /* Maximum width is also set to 50% to ensure layout consistency */
     padding: 10px; /* Padding around each video group */
     box-sizing: border-box; /* Includes padding in width calculation */
@@ -17,7 +17,7 @@
     align-items: center;
 }
 
-.video-wrapper {
+#banner-card .video-wrapper {
     width: 100%; /* Full width of its parent container */
     aspect-ratio: 16 / 9; /* Maintains a 16:9 aspect ratio */
     overflow: hidden; /* Prevents overflow */
@@ -25,15 +25,33 @@
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
 }
 
-.video-wrapper iframe {
+#banner-card .video-description,
+#banner-card .video-description a {
+    font-weight: bold !important;
+    text-align: center;
+}
+
+#banner-card .video-wrapper iframe {
     width: 100%; /* Ensures the iframe fills the container */
     height: 100%; /* Ensures the iframe fills the container */
     border: none; /* Removes the border */
 }
 
-.video-description {
+#banner-card .video-description {
     margin-top: 10px; /* Space between the video and its description */
     text-align: center; /* Centers the text */
     font-size: 16px; /* Sets the font size */
     color: #333; /* Dark color for text */
+}
+
+/* Media Query for smaller screens such as phones */
+@media (max-width: 500px) {
+    #banner-card .video-container {
+        justify-content: center; /* Centers the content on smaller screens */
+    }
+
+    #banner-card .video-group {
+        flex: 0 0 100%; /* Each video group takes up 100% of the container's width on smaller screens */
+        max-width: 100%; /* Maximum width is also set to 100% to ensure layout consistency */
+    }
 }

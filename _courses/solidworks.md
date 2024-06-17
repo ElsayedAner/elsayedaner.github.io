@@ -155,26 +155,28 @@ In this comprehensive course, you'll gain a thorough understanding of mechanical
 <br>
 
 <h2 class="exercises-header" style="--header-start-color: {{ page.card_color }}; --header-text-color: {{ page.text_color }};"><img src="../images/icons/video.png" alt="video"> Videos</h2>
-<div class="video-container">
-    <div class="video-group">
-        <div class="video-wrapper">
-            <iframe src="https://www.youtube.com/embed/3yrYWrJlJRo" title="How to Install/Uninstall SolidWorks"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                allowfullscreen></iframe>
+<div id="banner-card">
+    <div class="video-container">
+        <div class="video-group">
+            <div class="video-wrapper">
+                <iframe src="https://www.youtube.com/embed/3yrYWrJlJRo" title="How to Install/Uninstall SolidWorks"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen></iframe>
+            </div>
+            <p class="video-description">How to Install/Uninstall SolidWorks<br>
+            <a href="https://www.linkedin.com/in/mohamed-khaled-farouk/" target="_blank">👨‍🏫 Eng. Mohamed Farouk</a></p>
         </div>
-        <p class="video-description">How to Install/Uninstall SolidWorks<br>
-        <a href="https://www.linkedin.com/in/mohamed-khaled-farouk/" target="_blank"> >>Eng. Mohamed Farouk</a></p>
-    </div>
-    <div class="video-group">
-        <div class="video-wrapper">
-            <iframe src="https://www.youtube.com/embed/5Dn_4QO50SI" title="How to Install/Uninstall SolidWorks"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                allowfullscreen></iframe>
+        <div class="video-group">
+            <div class="video-wrapper">
+                <iframe src="https://www.youtube.com/embed/5Dn_4QO50SI" title="How to Install/Uninstall SolidWorks"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen></iframe>
+            </div>
+            <p class="video-description">Getting Started with SolidWorks<br>
+            <a href="https://www.linkedin.com/in/mohamed-khaled-farouk/" target="_blank">👨‍🏫 Eng. Mohamed Farouk</a></p>
         </div>
-        <p class="video-description">Getting Started with SolidWorks<br>
-        <a href="https://www.linkedin.com/in/mohamed-khaled-farouk/" target="_blank"> >>Eng. Mohamed Farouk</a></p>
-    </div>
-</div> 
+    </div> 
+</div>
 <br>
 
 <h2 class="exercises-header" style="--header-start-color: {{ page.card_color }}; --header-text-color: {{ page.text_color }};"><img src="../images/icons/exams.png" alt="download"> Sample Exams</h2>

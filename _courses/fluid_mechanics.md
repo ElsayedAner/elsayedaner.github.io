@@ -72,43 +72,45 @@ This course is suitable for students who are keen on building a robust foundatio
 <br>
 
 <h2 class="exercises-header" style="--header-start-color: {{ page.card_color }}; --header-text-color: {{ page.text_color }};"><img src="../images/icons/video.png" alt="video"> Videos</h2>
-<div class="video-container">
-    <div class="video-group">
-        <div class="video-wrapper">
-            <iframe src="https://www.youtube.com/embed/PZF8ecpsZqc" title="Fluid mechanics sheet 3 answer"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                allowfullscreen></iframe>
-        </div>
-        <p class="video-description">sheet 3 answer<br>
-        <a href="https://www.linkedin.com/in/elsayed-atif/" target="_blank"> >>Eng. Elsayed</a></p>
-    </div>
-    <div class="video-group">
-        <div class="video-wrapper">
-            <iframe src="https://www.youtube.com/embed/6a4_WzMDv8w" title="sheet 4"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                allowfullscreen></iframe>
-        </div>
-        <p class="video-description">sheet 4 answer<br>
-        <a href="https://www.researchgate.net/profile/Wafaa-Mostafa" target="_blank"> >>Dr. Wafaa</a></p>
-    </div>
-    <div class="video-group">
-        <div class="video-wrapper">
-            <iframe src="https://www.youtube.com/embed/TAewmTe-cWU" title="sheet 5"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                allowfullscreen></iframe>
-        </div>
-        <p class="video-description">sheet 5 answer<br>
-        <a href="https://www.researchgate.net/profile/Ahmed-Elshabrawy-7" target="_blank"> >>Eng. Elshabrawey</a></p>
-    </div>
-    <div class="video-group">
-        <div class="video-wrapper">
-            <iframe src="https://www.youtube.com/embed/XytAj-pI9rY" title="Fluid mechanics sheet 6 answer"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                allowfullscreen></iframe>
-        </div>
-        <p class="video-description">sheet 6 answer<br>
-        <a href="https://www.researchgate.net/profile/Ahmed-Elshabrawy-7" target="_blank"> >>Eng. Elshabrawey</a></p>
-    </div>
+<div id="banner-card">
+  <div class="video-container">
+      <div class="video-group">
+          <div class="video-wrapper">
+              <iframe src="https://www.youtube.com/embed/PZF8ecpsZqc" title="Fluid mechanics sheet 3 answer"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                  allowfullscreen></iframe>
+          </div>
+          <p class="video-description">sheet 3 answer<br>
+          <a href="https://www.linkedin.com/in/elsayed-atif/" target="_blank">👨‍🏫 Eng. Elsayed</a></p>
+      </div>
+      <div class="video-group">
+          <div class="video-wrapper">
+              <iframe src="https://www.youtube.com/embed/6a4_WzMDv8w" title="sheet 4"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                  allowfullscreen></iframe>
+          </div>
+          <p class="video-description">sheet 4 answer<br>
+          <a href="https://www.researchgate.net/profile/Wafaa-Mostafa" target="_blank">👨‍🏫 Dr. Wafaa</a></p>
+      </div>
+      <div class="video-group">
+          <div class="video-wrapper">
+              <iframe src="https://www.youtube.com/embed/TAewmTe-cWU" title="sheet 5"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                  allowfullscreen></iframe>
+          </div>
+          <p class="video-description">sheet 5 answer<br>
+          <a href="https://www.researchgate.net/profile/Ahmed-Elshabrawy-7" target="_blank">👨‍🏫 Eng. Elshabrawey</a></p>
+      </div>
+      <div class="video-group">
+          <div class="video-wrapper">
+              <iframe src="https://www.youtube.com/embed/XytAj-pI9rY" title="Fluid mechanics sheet 6 answer"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                  allowfullscreen></iframe>
+          </div>
+          <p class="video-description">sheet 6 answer<br>
+          <a href="https://www.researchgate.net/profile/Ahmed-Elshabrawy-7" target="_blank">👨‍🏫 Eng. Elshabrawey</a></p>
+      </div>
+  </div>
 </div>
 
 <br>

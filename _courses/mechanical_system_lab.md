@@ -64,18 +64,19 @@ Through a series of interactive experiments and projects, this course covers the
 <br>
 
 <h2 class="exercises-header" style="--header-start-color: {{ page.card_color }}; --header-text-color: {{ page.text_color }};"><img src="../images/icons/video.png" alt="video"> Videos</h2>
-<br>
-<div class="video-container">
-    <div class="video-group">
-        <div class="video-wrapper">
-            <iframe src="https://www.youtube.com/embed/6RQ3MZ_tjuY" title="sheet 1 answer"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                allowfullscreen></iframe>
-        </div>
-        <p class="video-description">sheet 1 answer<br>
-        <a href="https://www.linkedin.com/in/elsayed-atif/" target="_blank"> >>Eng. Elsayed</a></p>
-    </div>
-</div> 
+<div id="banner-card">
+  <div class="video-container">
+      <div class="video-group">
+          <div class="video-wrapper">
+              <iframe src="https://www.youtube.com/embed/6RQ3MZ_tjuY" title="sheet 1 answer"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                  allowfullscreen></iframe>
+          </div>
+          <p class="video-description">sheet 1 answer<br>
+          <a href="https://www.linkedin.com/in/elsayed-atif/" target="_blank">👨‍🏫 Eng. Elsayed</a></p>
+      </div>
+  </div> 
+</div>
 <br>
 
 <h2 class="exercises-header" style="--header-start-color: {{ page.card_color }}; --header-text-color: {{ page.text_color }};"><img src="../images/icons/exams.png" alt="download"> Sample Exams</h2>
