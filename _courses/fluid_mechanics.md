@@ -80,8 +80,8 @@ This course is suitable for students who are keen on building a robust foundatio
                   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                   allowfullscreen></iframe>
           </div>
-          <p class="video-description">sheet 3 answer<br>
-          <a href="https://www.linkedin.com/in/elsayed-atif/" target="_blank">👨‍🏫 Eng. Elsayed</a></p>
+          <p class="video-description">🎬 sheet 3 answer<br>
+          <a href="https://www.linkedin.com/in/elsayed-atif/" target="_blank">👨‍🏫 Eng. Elsayed Aner</a></p>
       </div>
       <div class="video-group">
           <div class="video-wrapper">
@@ -89,8 +89,8 @@ This course is suitable for students who are keen on building a robust foundatio
                   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                   allowfullscreen></iframe>
           </div>
-          <p class="video-description">sheet 4 answer<br>
-          <a href="https://www.researchgate.net/profile/Wafaa-Mostafa" target="_blank">👨‍🏫 Dr. Wafaa</a></p>
+          <p class="video-description">🎬 sheet 4 answer<br>
+          <a href="https://www.researchgate.net/profile/Wafaa-Mostafa" target="_blank">👨‍🏫 Dr. Wafaa Mostafa</a></p>
       </div>
       <div class="video-group">
           <div class="video-wrapper">
@@ -98,8 +98,8 @@ This course is suitable for students who are keen on building a robust foundatio
                   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                   allowfullscreen></iframe>
           </div>
-          <p class="video-description">sheet 5 answer<br>
-          <a href="https://www.researchgate.net/profile/Ahmed-Elshabrawy-7" target="_blank">👨‍🏫 Eng. Elshabrawey</a></p>
+          <p class="video-description">🎬 sheet 5 answer<br>
+          <a href="https://www.researchgate.net/profile/Ahmed-Elshabrawy-7" target="_blank">👨‍🏫 Eng. Ahmed Shabrawy</a></p>
       </div>
       <div class="video-group">
           <div class="video-wrapper">
@@ -107,8 +107,8 @@ This course is suitable for students who are keen on building a robust foundatio
                   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                   allowfullscreen></iframe>
           </div>
-          <p class="video-description">sheet 6 answer<br>
-          <a href="https://www.researchgate.net/profile/Ahmed-Elshabrawy-7" target="_blank">👨‍🏫 Eng. Elshabrawey</a></p>
+          <p class="video-description">🎬 sheet 6 answer<br>
+          <a href="https://www.researchgate.net/profile/Ahmed-Elshabrawy-7" target="_blank">👨‍🏫 Eng. Ahmed Shabrawy</a></p>
       </div>
   </div>
 </div>

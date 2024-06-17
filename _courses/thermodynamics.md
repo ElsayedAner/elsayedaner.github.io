@@ -18,8 +18,8 @@ icon: "/images/icons/thermodynamics.png"
 rank_item: "⭐"
 rank: 0
 tags:
-  - semester 3
-  - mechanics
+  - ⚙️mechanics
+  - 📅semester 3
 comments: true
 published: true
 ---

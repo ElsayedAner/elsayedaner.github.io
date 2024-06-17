@@ -18,8 +18,8 @@ icon: "/images/icons/mechanical_system_lab.png"
 rank_item: "⭐"
 rank: 0
 tags:
-  - semester 3
-  - mechanics
+  - ⚙️mechanics
+  - 📅semester 3
 comments: true
 published: true
 ---
@@ -72,8 +72,8 @@ Through a series of interactive experiments and projects, this course covers the
                   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                   allowfullscreen></iframe>
           </div>
-          <p class="video-description">sheet 1 answer<br>
-          <a href="https://www.linkedin.com/in/elsayed-atif/" target="_blank">👨‍🏫 Eng. Elsayed</a></p>
+          <p class="video-description">🎬 sheet 1 answer<br>
+          <a href="https://www.linkedin.com/in/elsayed-atif/" target="_blank">👨‍🏫 Eng. Elsayed Aner</a></p>
       </div>
   </div> 
 </div>

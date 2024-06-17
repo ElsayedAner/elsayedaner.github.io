@@ -18,8 +18,8 @@ icon: "/images/icons/solidworks.png"
 rank_item: "⭐"
 rank: 3
 tags:
-  - semester 3
-  - mechanics
+  - ⚙️mechanics
+  - 📅semester 3
 comments: true
 published: true
 ---
@@ -163,7 +163,7 @@ In this comprehensive course, you'll gain a thorough understanding of mechanical
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                     allowfullscreen></iframe>
             </div>
-            <p class="video-description">How to Install/Uninstall SolidWorks<br>
+            <p class="video-description">🎬 How to Install/Uninstall SolidWorks<br>
             <a href="https://www.linkedin.com/in/mohamed-khaled-farouk/" target="_blank">👨‍🏫 Eng. Mohamed Farouk</a></p>
         </div>
         <div class="video-group">
@@ -172,7 +172,7 @@ In this comprehensive course, you'll gain a thorough understanding of mechanical
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                     allowfullscreen></iframe>
             </div>
-            <p class="video-description">Getting Started with SolidWorks<br>
+            <p class="video-description">🎬 Getting Started with SolidWorks<br>
             <a href="https://www.linkedin.com/in/mohamed-khaled-farouk/" target="_blank">👨‍🏫 Eng. Mohamed Farouk</a></p>
         </div>
     </div> 

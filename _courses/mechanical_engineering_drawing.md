@@ -18,8 +18,8 @@ icon: "/images/icons/autocad.png"
 rank_item: "⭐"
 rank: 3
 tags:
-  - mechanics
-  - semester 3
+  - ⚙️mechanics
+  - 📅semester 3
 comments: true
 published: true
 ---
