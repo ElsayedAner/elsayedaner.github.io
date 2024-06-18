@@ -4,17 +4,17 @@
         linear-gradient(
             to top, 
             {{ page.card_color | default: '#000' }}CC,  /* Semi-transparent, using hexadecimal alpha */
-            {{ page.card_color | default: '#000' }}00 30%  /* Transparent, using hexadecimal alpha */
+            {{ page.card_color | default: '#000' }}00 40%  /* Transparent, using hexadecimal alpha */
         ),
         linear-gradient(
             to right,
             {{ page.card_color | default: '#000' }}CC,  /* Semi-transparent, using hexadecimal alpha */
-            {{ page.card_color | default: '#000' }}00 30%  /* Transparent, using hexadecimal alpha */
+            {{ page.card_color | default: '#000' }}00 10%  /* Transparent, using hexadecimal alpha */
         );">
     </div>
     <div class="course-info">
         <div class="course-title" style="color: {{ page.text_color }};">
-            <img src="{{ page.icon }}" alt="Course Icon" style="width: 50px; height: 50px; vertical-align: middle; margin-right: 5px;">
+            <img src="{{ page.icon }}" alt="Course Icon">
             {{ page.title }}
         </div>
         <div class="course-rank">

@@ -1,13 +1,9 @@
 # Ignore the contents of the _site directory
 _site/
-_posts/
-_drafts/
-_talks/
-_portfolio/
 
-# Ignore the Gemfile that is generated
+# Ignore the Gemfile lock file
 Gemfile.lock
 
-# Ingore files created by npm
-node_modules
+# Ignore files created by npm
+node_modules/
 package-lock.json

@@ -11,7 +11,7 @@ location: "Badr City, Egypt"
 header:
   teaser: "/images/material_engineering.jpg"  # Ensure this is a valid path to an image file
 text_color: "#ffffff"         # Dark gray text color
-card_color: "#0031b8"       # Light gray background for the card
+card_color: "#B38C1D"       # Light gray background for the card
 button_bg_color: "#007bff"  # Bootstrap primary color for the button background
 button_text_color: "#ffffff" # White text for the button
 icon: "/images/icons/material.png"

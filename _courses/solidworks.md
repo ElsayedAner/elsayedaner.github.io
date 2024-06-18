@@ -9,9 +9,9 @@ venue: "Egyptian Russian University, Mechatronics & Robotics department"
 date: 2024-02-01
 location: "Badr City, Egypt"
 header:
-  teaser: "/images/solidworks.jpg"
+  teaser: "/images/solidworks.webp"
 text_color: "#ffffff"
-card_color: "#824D74"
+card_color: "#12595D"
 button_bg_color: "#007bff"
 button_text_color: "#ffffff"
 icon: "/images/icons/solidworks.png"
