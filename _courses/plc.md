@@ -10,9 +10,9 @@ date: 2024-02-01
 location: "Badr City, Egypt"
 header:
   teaser: "/images/plc.jpg"  # Ensure this is a valid path to an image file
-text_color: "#ffffff"         # Dark gray text color
-card_color: "#D58E00"       # Light gray background for the card
-button_bg_color: "#007bff"  # Bootstrap primary color for the button background
+text_color: "#ffffff"        # Dark gray text color
+card_color: "#074989"        # Light gray background for the card
+button_bg_color: "#007bff"   # Bootstrap primary color for the button background
 button_text_color: "#ffffff" # White text for the button
 icon: "/images/icons/plc.png"
 rank_item: "⭐"
