@@ -35,11 +35,19 @@ published: true
 </style>
 
 <!-- Publications ----------------------------------->
-<!-- New Row for Additional Publications/Images -->
-<div style="display: flex; justify-content: center; align-items: center; gap: 20px;">
-  <div style="text-align: center; width: 40%;">
+<div style="display: flex; justify-content: center; align-items: flex-start; gap: 20px; margin-top: 50px;">
+  <!-- Abstract Section -->
+  <div style="width: 70%; text-align: left;">
+    <h3>Abstract:</h3>
+    <p style="text-align: justify; font-family: 'Times New Roman', Times, serif; font-size: 16px; line-height: 1.5; width: 95%;">
+      Continuum robots are complex structures that require sophisticated modeling and control methods to achieve accurate position and motion tracking along desired trajectories. They are highly coupled, nonlinear systems with multiple degrees of freedom that pose a signifcant challenge for conventional approaches. In this paper, we propose a system dynamic model based on the Euler–Lagrange formulation with the assumption of piecewise constant curvature (PCC), where we accounts for the elasticity and gravity efects of the continuum robot. We also develop and apply a particle swarm optimization (PSO) algorithm to optimize the parameters of our developed controllers: an inverse dynamic proportional integral derivative (PID) controller and an inverse dynamic fuzzy logic controller (FLC), where we use the integral time of absolute error (ITAE) as the objective function for the PSO algorithm. We validate our proposed model and optimized controllers through diferent designed trajectories, simulated using our developed unique animated MATLAB simulation. The results show that the PSO-PID controller improves the rise time, overshoot percentage, and settling time by 16.3%, 31.1%, and 64.9%, respectively, compared to the PID controller without PSO. The PSO-FLC controller shows the best performance among all controllers, with a settling time of 0.7 s and a rise time of 0.4 s, leading to the highest level of precision in trajectory tracking. The ITAE error for the PSOFLC controller is 11.4% and 29.9% lower than that of the PSO-PID and FLC controllers, respectively.
+    </p>
+  </div>
+
+  <!-- Image Section -->
+  <div style="width: 30%; text-align: center; display: flex; align-items: center; justify-content: center;">
     <a href="../images/p2-f2.png" target="_blank">
-      <img src="../images/p2-f2.png" alt="Your Description 2" style="width: 100%; display: block; margin: auto;" />
+      <img src="../images/p2-f2.png" alt="Continuum Manipulator Dynamics" style="width: 100%; max-width: 300px; height: auto; display: block; margin: auto;" />
     </a>
   </div>
 </div>
@@ -48,14 +56,13 @@ published: true
 <div style="display: flex; justify-content: center; align-items: center; gap: 20px;">
   <div style="text-align: center; width: 45%;">
     <a href="https://link.springer.com/article/10.1038/s41598-023-50551-0" target="_blank">
-      <img src="../images/p2.jpg" alt="Interest 2" style="width: 30%; display: block; margin: auto;" />
+      <img src="../images/p2.jpg" alt="Journal Cover Image" style="width: 30%; display: block; margin: auto;" />
     </a>
-    <p style="font-size: 12px; color: black; font-weight: bold; text-align: center">Performance evaluation of PSO-PID and PSO-FLC for continuum robot’s developed modeling and control</p>
+    <p style="font-size: 12px; color: black; font-weight: bold;text-align: center">Performance evaluation of PSO-PID and PSO-FLC for continuum robot’s developed modeling and control</p>
     <p style="font-size: 14px; text-align: center; color: #B8860B;">Scientific Reports</p>
   </div>
 </div>
 <br>
-
 
 <!-- Embed PDF -->
 <div class="pdf-container">
