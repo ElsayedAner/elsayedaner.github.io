@@ -38,11 +38,11 @@ published: true
 <div style="display: flex; justify-content: center; align-items: flex-start; gap: 20px; margin-top: 50px;">
   <!-- Abstract Section -->
   <div style="width: 70%; text-align: left;">
-    <h3>Abstract:</h3>
+    <h3 style="color: #00734D">Abstract:</h3>
     <p style="text-align: justify; font-family: 'Times New Roman', Times, serif; font-size: 16px; line-height: 1.5; width: 95%;">
       The photovoltaic (PV) system with maximum power point tracking (MPPT) is a frequently employed method for achieving an effective strategy under variable climatic conditions such as varying irradiance and temperature levels. This research investigates increasing the efficiency of a PV system via an artificial neural network (ANN). A feedforward neural network receives measured current and voltage as inputs and estimates the optimum duty cycle corresponding to maximum power as output. The ANN automatically detects the MPP of the PV module by using a preselected number of power measurements of the PV system. The PV system typically displays an I-V nonlinear feature curve with varying MPPs based on solar irradiance and temperature. The maximum power the PV module produces can be transferred to the load when the PV system operates at its MPP. This is achieved by matching the impedance between the PV system and the load through the DC-DC converter with an ANN that adjusts the converter’s duty cycle. The results demonstrate that the proposed ANN is more effective and that oscillations around the MPP are significantly decreased during uniform irradiance levels, sudden changes in irradiance levels, and sudden changes in temperature levels.
     </p>
-    <h3 style="display: inline; font-family: 'Times New Roman', Times, serif; font-size: 16px; margin-right: 10px; text-align: justify;">Keywords:</h3>
+    <h3 style="display: inline; font-family: 'Times New Roman', Times, serif; font-size: 16px; margin-right: 10px; text-align: justify; color: #00734D">Keywords:</h3>
     <span style="font-family: 'Times New Roman', Times, serif; font-size: 16px; line-height: 1.5; text-align: justify; ">
       	Photovoltaic system, MPPT control, DC-DC boost converter, Artificial Neural Networks.
     </span>
