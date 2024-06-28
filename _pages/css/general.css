@@ -28,6 +28,21 @@
     color: #001EA5;
     text-decoration: none;
 }
+.introduction .main .main_img img {
+    width: 100%; 
+    display: block; 
+    padding: 5px 10px 2px 20px;
+}
+.introduction .main .main_img p {
+    margin: 0px 0px 20px 0px; /* Ensures no space above the paragraph */
+    text-align: center; /* Centers the text */
+    font-size: 14px; /* Increases font size for better readability */
+    font-style: italic; /* Keeps text italicized */
+    font-weight: 300; /* Lighter font weight for a thinner appearance */
+    color: #337447; /* Sets a solid grey color, removing transparency for better legibility */
+    font-family: 'Arial', sans-serif !important; /* Adds a more professional-looking font */
+}
+
 .introduction .centered-content {
     display: flex;
     justify-content: center;
