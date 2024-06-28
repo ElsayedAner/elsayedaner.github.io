@@ -34,6 +34,10 @@ published: true
     }
 </style>
 
+<head>
+  <link rel="stylesheet" href="../_pages/css/videos.css">
+</head>
+
 <!-- Publications ----------------------------------->
 <div style="display: flex; justify-content: center; align-items: flex-start; gap: 20px; margin-top: 50px;">
   <!-- Abstract Section -->
@@ -53,6 +57,24 @@ published: true
 </div>
 <br>
 
+<!-- ========================== Video ========================== -->
+<div id="banner-card">
+  <hr>
+  <h2 style="color: #00734D">Videos:</h2>
+  <div class="video-container">
+    <div class="video-group">
+        <div class="video-wrapper">
+            <iframe src="https://www.youtube.com/embed/tvBerdMUqiE" title="Performance evaluation of PSO PID and
+              PSO FLC for continuum robot’s developed modeling and control" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen></iframe>
+        </div>
+        <p class="video-description" style="font-size: 15px; font-weight: bold; margin-top: 10px;">
+          Performance evaluation of PSO-PID and PSO-FLC for continuum robot’s developed modeling and control</p>
+    </div>
+  </div>
+</div>
+
 <div style="display: flex; justify-content: center; align-items: center; gap: 20px;">
   <div style="text-align: center; width: 45%;">
     <a href="https://link.springer.com/article/10.1038/s41598-023-50551-0" target="_blank">
@@ -64,7 +86,7 @@ published: true
 </div>
 <br>
 
-<!-- Embed PDF -->
+<!-- ========================== Embed PDF ========================== -->
 <div class="pdf-container">
     <object data="../files/s41598-023-50551-0.pdf?inline=true" type="application/pdf" width="100%" height="80px">
         <embed src="../files/s41598-023-50551-0.pdf?inline=true" type="application/pdf" width="100%" height="80px">

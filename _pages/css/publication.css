@@ -33,7 +33,8 @@
 #banner-card .journal-info {
     font-size: 14px;
     text-align: center;
-    color: #B8860B;
+    color: #001EA5;
+    font-weight: bold;
 }
 #banner-card .column-container {
     display: flex;
