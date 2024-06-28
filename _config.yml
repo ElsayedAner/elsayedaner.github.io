@@ -9,12 +9,12 @@
 # Basic Site Settings
 locale                   : "en-US"
 title                    : "Homepage"
-title_separator          : "/"
+title_separator          : "-"
 name                     : &name "Elsayed Atif Aner"
 description              : &description "Assistant lecturer @ERU | Embedded system engineer"
 url                      : https://elsayedaner.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
-repository               : "academicpages/academicpages.github.io"
+repository               : "elsayedaner/elsayedaner.github.io"
 
 # Site Author - The following control what appear as part of the author content on the side bar.
 #               If a field is blank the icon and link will not appear, otherwise it will be shown.
